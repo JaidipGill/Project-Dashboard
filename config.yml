@@ -1,0 +1,63 @@
+overall_view:
+  heatmap_button:
+    pos_x: 0.77
+    pos_y: 1.076
+  ics_button:
+    pos_x: 0.995
+    pos_y: 1.076
+  filename: 'overviewpage.html'
+  title_default: 'Projects by region'
+  subheading: '<br><sup>This view allows users to view distribution of Eastern AHSN <b>projects</b>, <b>IMD</b>, <b>age</b> and <b>ethnicity</b> statistics across the Eastern AHSN regions (by ICS, LA (Local Authority) and LSOA).</sup><br><sup>Note - Dropdowns are independent so only the effects from the dropdown that was last selected will be displayed</sup>'
+  colorbars:
+    ics: 'Blues' 
+    lsoa_bame: 'deep'
+    lsoa_age: 'dense'
+    lsoa_imd: 'YlOrRd_r'
+    la_imd: 'YlOrRd_r'
+    la_bame: 'deep'
+    la_age: 'dense'
+    ics_selection: 'Blues'
+    scatter: 'haline'
+project_view:
+  zoom: 7.4
+  opacity: 0.86
+  decision_no_color: 'red'
+  portfolio_button:
+    pos_x: 0.99
+    pos_y: 1.06
+  project_button:
+    pos_x: 0.86
+    pos_y: 1.06
+  colorbar : 'Inferno_r'
+  subheading: '<br><sup>This view allows users to view the locations for Eastern AHSN projects and portfolios. <br><sup>Note - Dropdowns are independent so only the effects from the dropdown that was last selected will be displayed</sup>'
+  title_default: '<b>Project/Portfolio View</b>' 
+  title_portfolio: '<b>Portfolio View:</b>'
+  title_project: '<b>Project View:</b>'
+  filename: 'projectpage.html'
+organisation_view:
+  decision_no_color: 'teal'
+  other_project_color: 'blue'
+  button_pos_x: 0.98
+  button_pos_y: 1.06
+  subheading: '<br><sup>This view allows users to view the stage and substage of projects at each Eastern AHSN organisation. <span style = "color:red;">Red</span> bars indicate that the project has ended</sup>'
+  title_default: '<b>Organisation View</b>' 
+  title_organisation: '<b>Organisation View - </b>'
+  filename: 'organisationpage.html'
+files:
+  implementation_report: 'Combined_Report.csv'
+  organisations: 'organisations.csv'
+  ics_locations: 'ics_locations.csv'
+  ethnicity: 'Ethnicity_2011_lsoa.csv'
+  imds: 'IMD2019-ALL.csv'
+  age: 'NOMIS_LC2101EW - by age - 2011 Census.csv'
+  population_regional: 'population_data_age_gender_2019.csv'
+  imd_regional: 'IMD_data_local _authorities_2019.csv'
+  ethnicity_regional: 'ethnicity_local_authority_2011.csv'
+  geojson_files:
+    lsoas: 'lsoa_v2.geojson'
+    stps: 'STPs.geojson'
+    local_authorities: 'local_authorities.geojson'
+  feather_files:
+    lsoas: 'lsoa_v2.feather'
+    stps: 'STPs.feather'
+    local_authorities: 'local_authorities.feather'

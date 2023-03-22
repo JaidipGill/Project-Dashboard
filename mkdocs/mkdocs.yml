@@ -1,0 +1,21 @@
+site_name: Eastern AHSN Dashboard
+theme: 
+    name: material
+    custom_dir: custom_theme\
+    logo: assets/images/logo.svg
+    favicon: assets/images/favicon.png
+    features:
+        - navigation.tabs
+        - header.autohide
+site_url: ""
+use_directory_urls: false
+plugins: []
+nav:
+    - Home: index.md
+    - Overall View: overall.md
+    - Project View: project.md
+    - Organisation View: organisations.md
+
+extra_css: [assets/stylesheets/extra.css]
+extra: 
+    generator: false

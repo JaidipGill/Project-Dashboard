@@ -1,0 +1,5 @@
+/mkdocs/site/
+/.venv
+/assets/
+/data
+/mkdocs/docs/*.html

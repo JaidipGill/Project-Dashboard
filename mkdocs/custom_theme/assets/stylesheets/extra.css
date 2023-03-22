@@ -1,0 +1,13 @@
+:root > * {
+  --md-primary-fg-color:#003f61;
+  --md-accent-fg-color:#e9b400;
+  --md-typeset-a-color:var(--md-accent-fg-color);
+  --md-text-font:"Verdana";
+  --md-code-font:"Verdana";
+}
+.md-grid {
+  max-width: 99vw; 
+}
+.md-sidebar--secondary:not([hidden]) {
+  width: 0rem
+}
